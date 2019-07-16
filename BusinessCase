@@ -1,0 +1,20 @@
+    
+## Introduction/Business Problem
+
+A restaurant chain is looking for possible areas in the Tampa FL area that will put them in the best position to succeed. In order to determine the level of success each possible area may have in the area they need to know:
+  - What's the general population of the surrounding area?
+  - What competition is nearby that could drive traffic away from our future restaurant? 
+      - Sit-Down restaurants vs Quick Service restaurants in the area
+  - What businesses are nearby that could be beneficial to our future restaurant?
+      - Universities, hospitals, corporate offices, theaters, etc..
+  - How far away is it to any restaurant we currently have in the Tampa area? 
+  
+  
+## Data Sources
+
+For this problem the following data points will be utilized:
+  - Geographic information: Neighborhood Lat/Long from FourSquare
+  - Demographic Information: Population density of those areas from government database
+  - Competitive Information: Number of restaurant competitors overall as well as number of direct competitors from FourSquare
+  - Nearby Business Information: Number of each segment (Hospital/School/Business/Other) from FourSquare
+  - Distance to brand's own restaurant from FourSquare
