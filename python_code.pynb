@@ -1,0 +1,12 @@
+## Introduction/Business Problem
+
+For the Tampa, FL area real estate is constantly in demand as more and more businesses move into the local area.
+Where is the ideal location to place a new fast casual chain restaurant in the Tampa area to maximize customers who will shop at our brand?
+
+## Data Sources
+
+For this problem the following data points will be utilized:
+Geographic information: Neighborhood Lat/Long
+Demographic Information: Population density of those areas
+Competitive Information: Number of restaurant competitors overall as well as number of direct competitors (identified as fast-casual chains)
+
