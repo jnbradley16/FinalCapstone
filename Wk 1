@@ -1,0 +1,27 @@
+{
+    "nbformat_minor": 1, 
+    "cells": [
+        {
+            "source": "## Introduction/Business Problem\nA restaurant chain is looking for possible areas in the Tampa FL area that will put them in the best position to succeed. In order to determine the level of success each possible area may have in the area they need to know:\n  - What's the general population of the surrounding area?\n      - What is the population density per mile?\n  - Is the surrounding area growing? \n  - Out of the occupants in each postal region:\n      - What is the employment rate?\n      - Do residents have disposable income?\n  - How much are the additional property tax rates in the area?\n\n", 
+            "cell_type": "markdown", 
+            "metadata": {}
+        }, 
+        {
+            "source": "## Data Sources\n\nFor this problem the following data points will be utilized:\n  - Geographic information sourced from: https://www.latlong.net/convert-address-to-lat-long.html\n  - Demographic information sourced from: http://www.city-data.com/zipmaps/Tampa-Florida.html", 
+            "cell_type": "markdown", 
+            "metadata": {}
+        }, 
+        {
+            "source": "#Import Libraries\nimport pandas as pd\nimport numpy as np\n\nfrom sklearn.cluster import KMeans\n\nimport matplotlib.cm as cm\nimport matplotlib.colors as colors\n\nimport requests \n\n#!conda install -c conda-forge folium=0.5.0 --yes \nimport folium \n\nprint(\"Libraries Imported\")", 
+            "cell_type": "code", 
+            "metadata": {}, 
+            "outputs": [
+                {
+                    "output_type": "stream", 
+                    "name": "stdout", 
+                    "text": "Libraries Imported\n"
+                }
+            ], 
+            "execution_count": 1
+        }, 
+      
